@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f7fb">
+  <meta name="description" content="Dein entspannter Prüfungstrainer für Kauffrau und Kaufmann im Einzelhandel: Aufgaben, Fehlertraining, Merksätze und Notizen – gratis und ohne Anmeldung.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>lernloop. – Prüfungstrainer Einzelhandel</title>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Hauptmenü">
+      <a href="#start" class="brand" data-nav="home" aria-label="lernloop Startseite">
+        <span class="brand-mark">l<span>·</span></span><span class="brand-name">lernloop<span class="brand-dot">.</span><small>Einzelhandel • 3. Lehrjahr</small></span>
+      </a>
+      <p class="side-label">DEIN LERNBEREICH</p>
+      <nav class="side-nav" id="desktop-nav"></nav>
+      <div class="side-bottom">
+        <div class="side-tip"><div class="tip-emoji">✦</div><b>Kleine Einheiten.<br>Große Fortschritte.</b><p>5 Minuten im Zug reichen für eine gute Wiederholung.</p></div>
+        <span class="tiny-label">Privat. Ohne Login. Auf deinem Gerät.</span>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="mobile-brand">lernloop<span>.</span><small>Prüfungstrainer</small></div>
+        <div class="topbar-left"><span class="topbar-kicker">DEIN TRAINING</span><span class="topbar-sep">/</span><span id="topbar-title">Übersicht</span></div>
+        <div class="topbar-actions">
+          <span class="saved-indicator" title="Dein Fortschritt wird nur lokal gespeichert"><span class="saved-dot"></span><span class="saved-text">Lokal gespeichert</span></span>
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Dunkelmodus einschalten"><span class="theme-icon" id="theme-icon">☾</span><span id="theme-label">Dark Mode</span></button>
+        </div>
+      </header>
+      <main id="app" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer"><span>Mit ♥ für kleine Lernmomente gemacht</span><span>Eigenständige Übungsfragen · Kein offizielles IHK-Angebot</span></footer>
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Mobile Navigation" id="mobile-nav"></nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="generator.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

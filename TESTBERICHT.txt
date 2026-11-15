@@ -1,0 +1,42 @@
+lernloop. – AUTOMATISIERTER TESTBERICHT
+======================================
+Stand: 15. November 2026
+
+1. FRAGEN UND GENERATOR
+   - 119 feste Grundfragen strukturell geprüft.
+   - 57 Zufallsvorlagen überprüft.
+   - 10.260 deterministisch regenerierte Aufgabenvarianten geprüft.
+   - Für Rechenaufgaben mit eigenständigen Kontrollformeln nachgerechnet:
+     Rabatt, Skonto, Netto/Brutto, Umsatzsteuer, Handelsspanne,
+     Kalkulationszuschlag, Deckungsbeitrag, Lagerwert, Umschlag,
+     Warenbestände, Meldebestand, Kaufquote, Durchschnittsbon und weitere.
+   - Eindeutige IDs, Reproduzierbarkeit und Rückverweise auf Fragen getestet.
+   - Zusätzlich 1.200 zufällige Generatorauswahlen kontrolliert.
+   ERGEBNIS: 11.642 von 11.642 Einzelprüfungen bestanden.
+
+2. BROWSER- UND BEDIENUNGSTESTS
+   - Desktopbreite 1440 px und Smartphonebreite 390 px.
+   - Aufbau und horizontales Scrollen.
+   - Hell-/Dunkelmodus inkl. Speicherung.
+   - Falsche Antwort, richtige Lösung, Merksatz und Notiz speichern.
+   - Fortbestehender Lernstand nach Neustart.
+   - Fehlertraining und Lernheft.
+   - 5-Fragen-Runde, alle 7 Aufgabenformen, 20-Fragen-Prüfungs-Check.
+   - Jeweils 50 Fragen in einer laufenden Endloseinheit, anschließend Auswertung.
+   - Insgesamt 100 von 100 browserbasierte Kontrollen bestanden.
+
+   HINWEIS: Das Testsystem ließ lokale Seiten-URLs nicht direkt zu. Die UI wurde
+   deshalb im echten Chromium aus unveränderten HTML-/CSS-/JavaScript-Dateien
+   aufgebaut, mit simuliertem persistentem Browser-Speicher. Ein echter Online-
+   Deploymenttest auf Cloudflare war ohne Zugriff auf dein Konto nicht möglich.
+
+3. CLOUDFLARE-ASSETS
+   - index.html im ZIP-Wurzelverzeichnis.
+   - Alle referenzierten Skripte, CSS-, Symbol- und PWA-Dateien enthalten.
+   - Statische Seiten, keine Build-Schritte, keine externen Abhängigkeiten.
+
+TOTAL: 11.742 bestandene automatisierte Einzelprüfungen, 0 offen.
+
+Automatisierte Tests sind kein Beweis für fehlerfreie fachliche Formulierungen
+oder die vollständige Abdeckung einer konkreten IHK-Prüfung. Offene Fallfragen
+lassen sich nicht objektiv automatisiert benoten; sie werden selbst eingeschätzt.
