@@ -1,0 +1,18 @@
+{
+  "checks": 12,
+  "passed": [
+    "Desktop 1440px: clear guest and account entry options",
+    "Desktop 1440px: no fake login while provider unconfigured",
+    "Desktop 1440px: account view without horizontal scroll",
+    "Desktop 1440px: guest immediately starts a real question",
+    "Desktop 1440px: return from guest practice",
+    "Desktop 1440px: dark mode remains functional",
+    "Mobile 390px: clear guest and account entry options",
+    "Mobile 390px: no fake login while provider unconfigured",
+    "Mobile 390px: account view without horizontal scroll",
+    "Mobile 390px: guest immediately starts a real question",
+    "Mobile 390px: return from guest practice",
+    "Mobile 390px: dark mode remains functional"
+  ],
+  "errors": []
+}

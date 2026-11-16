@@ -1,0 +1,22 @@
+{
+  "count": 16,
+  "passed": [
+    "Desktop: Startseite und kein horizontaler Überlauf",
+    "Desktop: Hell- und Dunkelmodus",
+    "Desktop: 5-Fragen-Check mit Auswertung und Merksatz",
+    "Desktop: Lernkompass zeigt beantwortete Aufgaben",
+    "Desktop: Lernziel-Link ohne Nutzerdaten",
+    "Desktop: 2. Lehrjahr und Lernfeldauswahl",
+    "Desktop: App-Installationsanleitung und keine Fake-Installation",
+    "Desktop: kein Überlauf nach den Interaktionen",
+    "Handy: Startseite und kein horizontaler Überlauf",
+    "Handy: Hell- und Dunkelmodus",
+    "Handy: 5-Fragen-Check mit Auswertung und Merksatz",
+    "Handy: Lernkompass zeigt beantwortete Aufgaben",
+    "Handy: Lernziel-Link ohne Nutzerdaten",
+    "Handy: 2. Lehrjahr und Lernfeldauswahl",
+    "Handy: App-Installationsanleitung und keine Fake-Installation",
+    "Handy: kein Überlauf nach den Interaktionen"
+  ],
+  "errors": []
+}
